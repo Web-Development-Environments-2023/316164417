@@ -1,193 +1,166 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="js/main.js"></script>
+  <title>שלמה ארצי</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.css">
+  
 </head>
+
 <body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
-</div>
-		  
-<section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
-</section>
+  <div id="fb-root"></div>
+  <div id="menu">
+    <ul class="menu">
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#photos">My Photos</a></li>
+      <li><a href="#playlist">My Playlist</a></li>
+      <li><a href="#like">Like</a></li>
+      <li><a href="#qrcoder">QR code</a></li>
+      <li><a href="#spa">Q&A</a></li>
+      <li class="right"><a href="#contact">Contact Me</a></li>
+    </ul>
+  </div>
+  <img src="https://www.srugim.co.il/wp-content/uploads/2019/11/F070831MF02-1-e1574779818569.jpg" width="35%"
+    height="35%">
+  <section id="about" class="section">
+    <br />
+    <h1>About Me</h1>
+    <p>
+      שלמה ארצי נולד ב־26 בנובמבר 1949. <br />
+      הוא זמר־יוצר, מוזיקאי, מלחין, פזמונאי, מפיק מוזיקלי ושדרן רדיו.<br />
+      שלמה נמנה עם הזמרים המצליחים בישראל ובזמר העברי.
+      <br /><br />
+      את דרכו המוזיקלית החל בלהקה שהקים כנער בתנועת הצופים והייתה מופיעה בערבי שישי. ארצי התפרסם לראשונה כסולן בלהקת
+      חיל הים והפך לכוכב עם זכייתו בפסטיבל הזמר והפזמון 1970.<br /> בשנים
+      1970–1976 זכה עשר פעמים בתואר זמר השנה בקול ישראל וזכה בפרס
+      כינור דוד, זכה פעם נוספת בפסטיבל הזמר 1974 ונבחר כנציג ישראל באירוויזיון 1975.<br /> עם זאת שני אלבומיו הבאים
+      נכשלו
+      מבחינה מסחרית. בשנת 1977, כאשר כמעט היה מוכן לוותר על קריירה מוזיקלית, ביקש להוציא אלבום אחד אחרון, "גבר הולך
+      לאיבוד", ולהפיק אותו בעצמו לפי ראות עיניו וללא התערבות חברת התקליטים.<br /> בעקבות הצלחתו של אלבום זה זכה ארצי
+      בהכרה
+      ובפופולריות מחודשת, שהגיעה לשיאה החל משנות השמונים, ועד לעשור השלישי של המאה ה־21.
+      <br /><br />
+      ארצי הוא זוכה פרס אקו"ם על מפעל חיים לשנת 2009. ב־2012 העניקה לו אוניברסיטת חיפה תואר דוקטור לפילוסופיה לשם
+      כבוד.<br /> ב־2018, כחלק מחגיגות שנת ה־70 למדינת ישראל, נבחר ארצי להדליק משואה בטקס הדלקת המשואות בהר הרצל.
+    </p>
+  </section>
 
-<section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
-</section>
+  <section id="photos" class="section" style="text-align: left;">
+    <br />
+    <h1>My Photos</h1>
+    <div class="content">
+      <div class="images">
+        <img src="https://www.israelhayom.co.il/wp-content/uploads/2022/09/29/29/%D7%A7%D7%95%D7%A7%D7%951.jpg" />
+        <img src="https://kanstatic.azureedge.net/download/pictures/2019/11/26/imgid=24152_A.jpeg" />
+        <img
+          src="https://ynet-pic1.yit.co.il/picserver5/crop_images/2021/11/10/HyVbHeoYPF/HyVbHeoYPF_0_111_1622_912_0_x-large.jpg" />
+        <img
+          src="https://emeknews.co.il/wp-content/uploads/2010/07/%D7%A9%D7%9C%D7%9E%D7%94-%D7%90%D7%A8%D7%A6%D7%99-848x636.jpeg" />
+      </div>
+      <div onclick="side_slide(-1)" class="slide left">
+        <span class="fa fa-angle-left"><</span>
+      </div>
+      <div onclick="side_slide(1)" class="slide right">
+        <span class="fa fa-angle-right">></span>
+      </div>
+    </div>
+    <label id="currentImg">1 of 4</label>
+  </section>
 
-<section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
-</section>
+  <section id="playlist" class="section">
+    <br />
+    <h1>My Playlist</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gmv-b4N7Enk" title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen style="border-radius: 5px;"></iframe>
+  </section>
+  <section id="like" class="section">
+    <br />
+    <h1>Like</h1>
+    <div class="fb-like" data-href="https://web-development-environments-2023.github.io/316164417/" data-width=""
+      data-layout="button_count" data-action="" data-size="large" data-share="false"></div>
+  </section>
 
-<section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
-</section>
+  <section id="qrcoder" class="section">
+    <br />
+    <h1>QR code</h1>
+    <img
+      src="https://qrfree.kaywa.com/?l=1&s=8&d=https%3A%2F%2Fweb-development-environments-2023.github.io%2F316164417%2F"
+      width="20%" height="20%">
+  </section>
 
-<section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
-</section>
+  <section id="spa" class="section">
+    <br />
+    <h1>Q&A</h1>
+    <p>שאלה1:<br />
+      - ההבדל העיקרי בין web 2.0, web 1.0 ו-web 3.0 הוא ש-web 1.0 נחשב סטטי לקריאה בלבד ,אילו Web 2.0 נחשב
+      דינמי
+      ומתמקד ביצירתיות תוכן של משתמשים ומפיקים המאפשר קריאה וכתיבה לכולם, בעוד ש-web 3.0 נחשב בעל בינה המתמקד על מערכי
+      נתונים מקושרים.<br /><br />
+      - כמות המשתמשים, אם ב-web 1.0 אנו מדברים על כמות משתמשים בסדר גודל של מיליונים, ב-web 2.0 אנו מדברים על כמות
+      משתמשים בסדר גודל של ביליונים, בעוד שב-web 3.0 אנו מדברים על כמות משתמשים בסדר גודל של טריליונים.<br /><br />
+      - חיבוריות, ב-web 1.0 מתמקדים בחיבור מידע, ב-web 2.0 מתמקדים בחיבור אנשים, עם כניסתם של הרשתות החברתיות לחיינו
+      ,בעוד שב-web 3.0 מתמקדים בחיבור ידע, עם כניסתם של בינה והעדפות ספציפיות למשתמשים שונים.
+    </p>
+    <p>שאלה2:<br />
+      - לדוגמה השימוש בפייסבוק, ב-web 1.0 לא היה קיים רשת חברתית באינטרנט והאתרים היו לקריאה בלבד בעוד שב-web 2.0 כל אדם
+      אשר חפץ בלפתוח משתמש ברשת החברתית יכול לעשות זאת, השינוי הנראה לעין לעומת web 3.0 הוא כאשר עכשיו פייסבוק תתאים את
+      התוכן אשר היא מציגה לכל משתמש על פי העדפות של המשתמש ועל בסיס בינה מלאכותית אשר מתאימה תוכן למשתמשים, משמע לא כל
+      המתמשים רואים דברים זהים בדף הבית של פייסבוק.<br /><br />
+      - כאשר מחפשים שאילתות בגוגל למשל שאילתות לגבי אוכל או פוליטיקה, בweb 1.0 דברנו על כך שההתמקדות היא במידע, התוצאות
+      אשר יוצגו למשתמש יהיו המתאימות
+      ביותר לשאילתה הנשאלת באופן כללי ורק על בסיס המידע, בעוד שב-web 3.0 התוצאות אשר יוצגו למשתמש יהיו מותאמות לאותו
+      משתמש אשל שאל אותן וייתמקדו בידע ובבינה של האינטרנט, כך שבמידה וכתבתי שאילתה לגבי אוכל או פוליטיקה, האינטרנט יתאים
+      את התשובות שלדעתו הכי רלוונטיות עבור שואל השאילתות.<br /><br />
+      - מבחינת כמות המשתמשים בפועל, בweb 1.0 דברנו על כך שהוא הוא היה סטטי לקריאה בלבד, רק "מומחים" ידעו ויכלו לפתוח
+      ולכתוב אתרים ואילו במעבר לweb 2.0 ,האינטרנט הונגש לעוד ועוד אנשים יכלו גם בעצמם לכתוב ברחבי האינטרנט, מה שגרם
+      לשימוש נרחב עם הזמן, דבר אשר הלך והתרחב במעבר ל-web 3.0.
+    </p>
+  </section>
 
-<section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
-</section>
+  <section id="contact" class="section">
+    <br />
+    <h1>Contact Me</h1>
+    <form action="mailto:samirada@post.bgu.ac.il" method="post" enctype="text/plain">
+      Name:<br>
+      <input type="text" name="name"><br>
+      E-mail:<br>
+      <input type="text" name="mail"><br>
+      Comment:<br>
+      <textarea id="textarea" type="text" name="comment" rows="4" cols="50"></textarea><br>
+      <input type="submit" value="Send">
+    </form>
+  </section>
 
-<section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
-</section>
+  <footer>
+    <span>&copy Daniel Samira</span>
+  </footer>
 
-
-<script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
-  });
-});
-</script>
-<script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });​
- </script>
+  <script async defer crossorigin="anonymous"
+  src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v16.0&appId=75427164559&autoLogAppEvents=1"
+  nonce="ushbTfE4"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.js"></script>
+  <script>
+    $('textarea').emojioneArea({
+      pickerPosition: 'top'
+    });
+  </script>
+  <script type="text/javascript">
+    $(function () {
+      $("#nav a").click(function (e) {
+        e.preventDefault();
+        $('html,body').scrollTo(this.hash, this.hash);
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    $(document).scroll(function () {
+      $('#menu').toggle($(this).scrollTop() > 1000)
+    });​
+  </script>
 </body>
 </html>
